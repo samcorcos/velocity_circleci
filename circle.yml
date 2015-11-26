@@ -1,7 +1,6 @@
 dependencies:
   cache_directories:
     - ~/.meteor
-    - ~/node_modules
   override:
     - meteor || curl https://install.meteor.com | /bin/sh
     - npm install velocity-cli -g
